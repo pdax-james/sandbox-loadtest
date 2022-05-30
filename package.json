@@ -1,0 +1,19 @@
+{
+  "name": "loadtest-custody",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "loadtest:transfer": "node loadtest-transfer.js",
+    "loadtest:account:create": "node loadtest-create-account.js",
+    "loadtest:account:get": "node loadtest-get-account.js"
+  },
+  "author": "James Saballegue",
+  "license": "ISC",
+  "dependencies": {
+    "autocannon": "^7.9.0",
+    "uuid": "^8.3.2"
+  }
+}
